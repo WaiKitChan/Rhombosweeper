@@ -1,0 +1,10 @@
+# Rhombosweeper
+Minesweeper on 3D isohedral solids of rhombic face.
+
+Does not support chording and auto-reveal of open squares across edges. First 
+click from player is guaranteed to be an open square only if the square is not
+adjacent to the edges.
+
+This project was originally developped by me using Dev-C++. If one wishes to build it
+into an executable, he may have to add Rhombosweeper.ico into resource.rc and modify
+line 141 of main.c.
