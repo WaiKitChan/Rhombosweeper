@@ -1,0 +1,28 @@
+#include"main.h"
+
+MAIN_MENU MENU {
+	POPUP "Board &Type" {
+		MENUITEM "&Hexahedron",ID_6HEDRON CHECKED
+		MENUITEM "&Dodecahedron",ID_12HEDRON
+		MENUITEM "&Triacontahedron",ID_30HEDRON
+	}
+	POPUP "Board &Size" {
+		MENUITEM "&Tiny\t~120",ID_TINY
+		MENUITEM "&Standard\t~300",ID_STANDARD CHECKED
+		MENUITEM "&Large\t~480",ID_LARGE
+		MENUITEM "&Mega\t~750",ID_MEGA
+		MENUITEM "&Giga\t~1200",ID_GIGA
+	}
+	POPUP "Mine &Density" {
+		MENUITEM "&Low\t12.5%",ID_LOW
+		MENUITEM "&Moderate\t16.7%",ID_MODERATE CHECKED
+		MENUITEM "&High\t20.0%",ID_HIGH
+	}
+	MENUITEM "E&xit",ID_EXIT
+}
+
+BM_BACKGROUND	BITMAP "bmp/background.bmp"
+BM_SPRITE		BITMAP "bmp/sprite.bmp"
+BM_DIGIT		BITMAP "bmp/digit.bmp"
+BM_NUMBER		BITMAP "bmp/number.bmp"
+BM_MINE			BITMAP "bmp/mine.bmp"
