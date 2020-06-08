@@ -12,3 +12,5 @@ arrow counterpart.
 This project was originally developped by me using Dev-C++. If one wishes to build it
 into an executable, he may have to add Rhombosweeper.ico into resource.rc and modify
 line 141 of main.c.
+
+The executable does not generate any external save file.
