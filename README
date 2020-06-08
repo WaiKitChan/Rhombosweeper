@@ -1,9 +1,13 @@
 # Rhombosweeper
 Minesweeper on 3D isohedral solids of rhombic face.
 
-Does not support chording and auto-reveal of open squares across edges. First 
-click from player is guaranteed to be an open square only if the square is not
-adjacent to the edges.
+Does not support chording and auto-reveal of open squares across edges. First click
+from player is guaranteed to be an open square only if the square is not adjacent to
+the edges.
+
+Player should use direction arrows or WASD to control the orientation of the solid.
+WASD is recommended since Q and E (for anticlockwise and clockwise rotation) have no
+arrow counterpart.
 
 This project was originally developped by me using Dev-C++. If one wishes to build it
 into an executable, he may have to add Rhombosweeper.ico into resource.rc and modify
